@@ -6,9 +6,13 @@ This Dockerfile builds an image with [sslocal](https://github.com/shadowsocks/sh
 Quick Start
 -----------
 
-This image uses ENTRYPOINT to run the containers as an executable.
+Run from docker hub:
 
     docker run -d -p 127.0.0.1:8123:8123 -e SERVER_ADDR=$SERVER_ADDR -e SERVER_PORT=$SERVER_PORT -e PASSWORD=$SS_PASSWORD liaoxiaorong/shadowsocks-polipo
+
+Run from China mirror(163 docker hub):
+
+    docker run -d -p 127.0.0.1:8123:8123 -e SERVER_ADDR=$SERVER_ADDR -e SERVER_PORT=$SERVER_PORT -e PASSWORD=$SS_PASSWORD hub.c.163.com/liaoxiaorong/shadowsocks-polipo
 
 Test:
 
