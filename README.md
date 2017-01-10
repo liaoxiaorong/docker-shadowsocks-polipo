@@ -1,7 +1,10 @@
-docker-shadowsocks
+docker-shadowsocks-polipo
 ==================
 
-This Dockerfile builds an image with [sslocal](https://github.com/shadowsocks/shadowsocks) and [polipo](https://github.com/jech/polipo). Based on Debian 7.9 image.
+This Dockerfile builds an image with [sslocal](https://github.com/shadowsocks/shadowsocks) and [polipo](https://github.com/jech/polipo). Based on Debian 7.9 image. 
+
+You can pull it from [docker hub](https://hub.docker.com/r/liaoxiaorong/shadowsocks-polipo/)
+ and [163 hub](https://c.163.com/hub#/m/repository/?repoId=48075).
 
 Quick Start
 -----------
